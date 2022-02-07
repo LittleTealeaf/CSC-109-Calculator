@@ -8,10 +8,15 @@ print("""
 Would you like to add or subtract your numbers?
 a. Add
 s. Subtract
+m. Multiply
+d. Divide
 """)
 val = input()
 if val == "a":
 	print(a + b)
 elif val == "b":
 	print(a - b)
-
+elif val == "m":
+	print(a * b)
+elif val == "d":
+	print(a / b)
