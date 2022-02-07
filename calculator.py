@@ -19,4 +19,7 @@ elif val == "b":
 elif val == "m":
 	print(a * b)
 elif val == "d":
-	print(a / b)
+	if b == 0:
+		print("Error: Divide by 0")
+	else:
+		print(a / b)
