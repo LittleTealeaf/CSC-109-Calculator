@@ -1,5 +1,7 @@
 
 def prompt_values():
-	return input("Enter the first digit: "), input("Enter the second digit: ")
+	return (int(input("Enter the first digit: ")), int(input("Enter the second digit: ")))
 
-prompt_values()
+a,b = prompt_values()
+print(a + b)
+
