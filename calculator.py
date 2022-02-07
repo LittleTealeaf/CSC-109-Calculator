@@ -1,6 +1,6 @@
 
 def prompt_values():
-	return (int(input("Enter the first integer: ")), int(input("Enter the second integer: ")))
+	return (float(input("Enter the first number: ")), float(input("Enter the second number: ")))
 
 a,b = prompt_values()
 
