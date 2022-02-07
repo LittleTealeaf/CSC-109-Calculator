@@ -11,7 +11,9 @@ s. Subtract
 m. Multiply
 d. Divide
 """)
+
 val = input()
+
 if val == "a":
 	print(a + b)
 elif val == "b":
